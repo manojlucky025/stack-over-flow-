@@ -1,3 +1,6 @@
+
+'''first we are importing all the flask modules'''
+
 from app import db, login_manager
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
